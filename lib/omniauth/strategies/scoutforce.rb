@@ -9,7 +9,7 @@ module OmniAuth
     #    use OmniAuth::Strategies::Scoutforce, 'consumerkey', 'consumersecret', :scope => 'read write', :display => 'plain'
     #
     class Scoutforce < OmniAuth::Strategies::OAuth2
-      BASE_URL = 'http://lvh.me:3001'
+      BASE_URL = 'https://login.scoutforce.com'
 
       option :name, :scoutforce
 
